@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "equiz",
+    "name": "QuizApp",
     "description": "A simple quiz application built with React Native and Expo",
     "slug": "quiz2",
     "privacy": "public",
@@ -8,7 +8,7 @@
     "platforms": ["android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -24,7 +24,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.owoows.quiz"
+      "package": "com.QuizApp"
     }
   }
 }
