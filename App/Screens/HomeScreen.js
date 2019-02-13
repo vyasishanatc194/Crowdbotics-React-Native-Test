@@ -4,6 +4,16 @@ import Colors from '../Resources/Colors';
 import { Link } from "react-router-native";
 import HomeScreenStyle from "../Resources/Styles/HomeScreenStyle";
 
+/**
+ * Created by Citrusbug.
+ * User: Ishan Vyas-Crowdbotics
+ * Date: 12/02/19
+ * Time: 12:00 PM
+ * Title : Home Screen
+ * Description : This file contain App info with logo and place button to navigate to questions.
+ */
+
+
 class HomeScreen extends React.Component {
 
     render() {
@@ -22,7 +32,7 @@ class HomeScreen extends React.Component {
                         <Text style={HomeScreenStyle.info_text}>You've to answer all the qeustions to understand your IQ level.</Text>
                         <Link to={`Questions`} style={HomeScreenStyle.button} underlayColor="#f0f4f7">
                             <View style={{ display: "flex", flexDirection: "row" }}>
-                                <Text style={HomeScreenStyle.button_text}>Start Questions</Text>
+                                <Text style={HomeScreenStyle.button_text}>Start Quiz</Text>
                             </View>
                         </Link>
                     </View>

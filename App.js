@@ -5,6 +5,14 @@ import HomeScreen from "./App/Screens/HomeScreen";
 import QuestionScreen from "./App/Screens/QuestionScreen";
 export default class App extends React.Component {
 
+  /**
+ * Created by Citrusbug.
+ * User: Ishan Vyas-Crowdbotics
+ * Date: 12/02/19
+ * Time: 12:00 PM
+ * Title : Main App File
+ * Description : This file contain navigation route about app.
+ */
 
   render() {
     return (
@@ -24,19 +32,5 @@ const styles = StyleSheet.create({
     display: 'flex',
     height: '100%',
     marginTop: 22,
-  },
-
-  welcome: {
-    fontSize: 22,
-    fontWeight: "bold"
-  },
-
-  paragraph: {
-    fontSize: 16,
-    color: "#777",
-    textAlign: "center",
-    padding: 10,
-    marginTop: 15,
-    lineHeight: 25
   }
 });
